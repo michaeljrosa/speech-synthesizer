@@ -5,6 +5,9 @@
  * Allophones DD1, DD2, and ZH redefined due to conflicts
  */
 
+#ifndef   ALLOPHONES_H
+#define   ALLOPHONES_H
+
 #define   PA1   0x00
 #define   PA2   0x01
 #define   PA3   0x02
@@ -26,7 +29,7 @@
 #define   DH1   0x12
 #define   IY    0x13
 #define   EY    0x14
-#define   rDD1  0x15  // redefined
+#define   DD1_  0x15  // redefined
 #define   UW1   0x16
 #define   AO    0x17
 #define   AA    0x18
@@ -38,12 +41,12 @@
 #define   UH    0x1E
 #define   UW2   0x1F
 #define   AW    0x20
-#define   rDD2  0x21  // redefined
+#define   DD2_  0x21  // redefined
 #define   GG3   0x22
 #define   VV    0x23
 #define   GG1   0x24
 #define   SH    0x25
-#define   rZH   0x26  // redefined
+#define   ZH_   0x26  // redefined
 #define   RR2   0x27
 #define   FF    0x28
 #define   KK2   0x29
@@ -69,3 +72,5 @@
 #define   GG2   0x3D
 #define   EL    0x3E
 #define   BB2   0x3F
+
+#endif
